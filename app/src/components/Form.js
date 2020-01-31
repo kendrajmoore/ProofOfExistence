@@ -119,7 +119,7 @@ class Form extends Component {
           this.setState({transactionHash});
           this.setState({name: ''});
           this.setState({ status: "Tx hash: "});
-          this.setState({ etherscanLink:'https://ropsten.etherscan.io/address/' + transactionHash});
+          this.setState({ etherscanLink:'https://ropsten.etherscan.io/tx/' + transactionHash});
         })
           .on('confirmation', (confNumber, receipt) => {
             this.getFiles();
