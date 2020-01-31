@@ -23,6 +23,7 @@ Now open the MetaMask extension, login to it. Once logged into the account, choo
 
 Once connected, we can use MetaMask to interact with the application. Now import the private key (from ganache-cli).
 
+Currently only accepts single page files with extensions `.png`, `.pdf`, `docx`. 
 ## Testing 
 To run these tests against a Ganache blockchain, In first terminal window run `ganache-cli` and then in other terminal,run `truffle test`. Both the commands should be run from the main directory of the project
 
