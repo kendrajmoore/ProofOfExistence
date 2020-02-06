@@ -23,7 +23,7 @@ Now open the MetaMask extension, login to it. Once logged into the account, choo
 
 Once connected, we can use MetaMask to interact with the application. Now import the private key (from ganache-cli).
 
-Currently only accepts single page files with extensions `.png`, `.pdf`, `docx`. 
+Currently only accepts single page files with extensions `.png`, `.pdf`. 
 ## Testing 
 To run these tests against a Ganache blockchain, In first terminal window run `ganache-cli` and then in other terminal,run `truffle test`. Both the commands should be run from the main directory of the project
 
@@ -57,11 +57,11 @@ To run these tests against a Ganache blockchain, In first terminal window run `g
 ## Design Pattern Requirements:
 - [x] Implement emergency stop
 - [x] What other design patterns have you used / not used?
-	- See `design.md`
+	- See `design_pattern_decisions.md`
     
 ## Security Tools / Common Attacks :
 - [x] Explain what measures you’ve taken to ensure that your contracts are not susceptible to common attacks
-	- See `attacks.md`
+	- See `avoiding_common_attacks.md`
 
 ## Other
 - [x] Use a library (via EthPM)
